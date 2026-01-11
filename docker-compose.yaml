@@ -1,7 +1,7 @@
 services:
   apps:
     container_name: ct-simpleapps-rino
-    image: simpleapps-rino
+    image: deni02/simpleapps-rino
     build: ./apps
     ports:
       - "10006:3000"
